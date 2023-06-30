@@ -1,0 +1,8 @@
+layout: templates/page.njk
+
+description: Luke Strange's website
+
+metas:
+  site: luke strange
+  title: "=title"
+  description: "=description"

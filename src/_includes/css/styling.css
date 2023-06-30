@@ -1,0 +1,40 @@
+body {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    line-height: 1.5;
+    background-color: rgb(247, 247, 247);
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    & > .page-flow {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        & > *:not(:first-child) {
+        flex-grow: 1;
+        }
+    }
+    & h1 {
+        color: rgb(19, 87, 114);
+    }
+}
+@media screen {
+    .dashboard .panel {
+      font-size: unset;
+    }
+  }
+
+.button {
+    & li {
+      list-style-type: None;
+        & a {
+          text-decoration: hwb(from color h w b);
+          font-weight: bold;
+          color: darkslategray;
+          }
+      display: inline-block;
+      flex-wrap: inline;
+      font-size: 1.2rem;
+      padding: 0.5em;
+    }
+}

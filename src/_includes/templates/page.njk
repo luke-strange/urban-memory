@@ -1,0 +1,20 @@
+---
+layout: templates/base.njk
+---
+<header>
+  <div class="page-flow">
+    <div>
+      <p>{{ metas.site }}</p>
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+    <ul class='button'>
+    <li><a href='/'>me</a></li>
+    <li><a href="/work/">work</a></li>
+    <li><a href=''>music</a></li>
+    <li><a href=''>frisbee</a></li>
+</ul>
+</header>
+<main role="main" class="page-flow">
+  {{ content | safe }}
+</main>

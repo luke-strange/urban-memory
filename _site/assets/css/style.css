@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  * ul {
+    font-size: 20px;
+    padding: 0;
+    white-space: nowrap;
+    position: relative;
+    left: 70rem;
+    bottom: 7rem;
+    }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  .page-flow {
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+  
+  main * + * {
+    margin-top: 1.5em;
+}
+  
+  .tooltip * {
+    margin-top: 0;
+}
+  
+  .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+  
+  body {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    line-height: 1.5;
+    background-color: rgb(247, 247, 247);
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+  header > .page-flow {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+    }
+  
+  header > .page-flow > *:not(:first-child) {
+        flex-grow: 1;
+        }
+  
+  header h1 {
+        color: rgb(19, 87, 114);
+    }
+  
+  @media screen {
+    .dashboard .panel {
+      font-size: unset;
+    }
+  }
+  
+  .button li {
+      list-style-type: None;
+      display: inline-block;
+      flex-wrap: inline;
+      font-size: 1.2rem;
+      padding: 0.5em;
+    }
+  
+  .button li a {
+          -webkit-text-decoration: hwb(from color h w b);
+                  text-decoration: hwb(from color h w b);
+          font-weight: bold;
+          color: darkslategray;
+          }
