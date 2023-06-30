@@ -8,7 +8,7 @@ metas:
   description: "=description"
 
 pages:
- - me
+ - about
  - work
  - music
  - ultimate
