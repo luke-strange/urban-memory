@@ -6,3 +6,9 @@ metas:
   site: luke strange
   title: "=title"
   description: "=description"
+
+pages:
+ - me
+ - work
+ - music
+ - ultimate

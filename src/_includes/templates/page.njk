@@ -9,6 +9,28 @@ layout: templates/base.njk
     </div>
   </div>
     <ul class='button'>
+      {# {% for item in pages %}
+        {% set check = False %}
+        {% if item == 'me' %}
+          <li><a style="font-weight:bold" href="/">{{item}}</a></li>
+          {% set check = True %}
+        {% endif %}
+        {% if title == item and check!=True %}
+        <li><a style="font-weight:bold" href=" {{ item }} ">{{item}}</a></li>
+        {% else %}
+            {% if title != item %}
+              <li><a href= " {{item}} " >{{ item }}</a></li>
+            {% endif %}
+        {% endif %}
+      {% endfor %} #}
+    {# {% for item in pages %}
+      {% if item == title %}
+        {% set type = "font-weight:bold" %}
+      {% else %}
+        {% set type = "none" %}
+      <li><a style={{type}} href=" {{item}} ">{{item}}</a></li>
+      {% endif %}
+    {% endfor %} #}
     <li><a href='/'>me</a></li>
     <li><a href="/work/">work</a></li>
     <li><a href='/music/'>music</a></li>
