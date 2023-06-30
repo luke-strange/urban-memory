@@ -1,2 +1,2 @@
 # urban-memory
-personal website
+personal website for Luke Strange
