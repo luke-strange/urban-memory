@@ -6,7 +6,7 @@ import base_path from "lume/plugins/base_path.ts";
 const site = lume(
     {
     src: "./src",
-    location: new URL("https://luke-strange.github.io"),
+    location: new URL("https://luke-strange.github.io/urban-memory/"),
     server: {
         open: false,
     },
