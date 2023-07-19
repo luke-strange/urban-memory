@@ -34,9 +34,19 @@ layout: templates/base.njk
     <li><a href='/'>about</a></li>
     <li><a href="/work/">work</a></li>
     <li><a href='/music/'>music</a></li>
-    <li><a href='/ultimate/'>ultimate</a></li>
+    <li><a href='/personal/'>personal</a></li>
     </ul>
 </header>
 <main role="main" class="page-flow">
   {{ content | safe }}
 </main>
+<script>
+function myFunction() {
+  var x = document.getElementById("DROPDOWN");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
